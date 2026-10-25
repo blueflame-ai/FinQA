@@ -4,6 +4,12 @@ The FinQA dataset and code from EMNLP 2021 paper: FinQA: A Dataset of Numerical 
 
 ![alt text](https://github.com/czyssrs/FinQA/blob/main/eg-intro.png?raw=true)
 
+## BlueFlame correction overlay
+
+An opt-in [reviewed DocFinQA v1 export](docs/docfinqa-corrections.md) fixes source,
+question and reference defects in 109 reviewed records while preserving the
+historical FinQA datasets.
+
 ## Updates
 05/15/2022 Refactor some code for easier testing the private test data, mostly in the finqa_utils.py files for both the retriever and the generator. In the config file for both retriever and the generator, you can set "mode" to "private" to test on the private data. 
 
